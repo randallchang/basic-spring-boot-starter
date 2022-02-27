@@ -1,0 +1,11 @@
+.idea/
+.vscode/
+target/
+*.iml
+logs/
+.DS_Store
+.classpath
+.project
+.settings/
+.settings/
+**.gz

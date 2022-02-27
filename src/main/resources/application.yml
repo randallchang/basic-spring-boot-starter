@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: basic-spring-boot-starter
+  datasource:
+    url: jdbc:mysql://localhost:3306/db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowPublicKeyRetrieval=true
+    username: user
+    password: password
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
+  type-aliases-package: com.basic
